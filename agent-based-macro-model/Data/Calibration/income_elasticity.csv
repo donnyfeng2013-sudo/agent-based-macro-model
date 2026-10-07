@@ -1,0 +1,69 @@
+sector,income_elasticity,mapped,ces_items
+111,0.7400,True,Fresh fruits; Fresh vegetables
+112,0.5427,True,Eggs
+115,1.0000,False,
+211,1.0000,False,
+212,1.0000,False,
+213,1.0000,False,
+221,0.5888,True,Natural gas; Electricity; Water and other public services
+236,1.5058,True,Owned dwellings
+237,1.0000,False,
+238,1.1396,True,"Maintenance, repairs, insurance, and other expenses"
+311,0.7286,True,"Cereals and bakery products; Meats, poultry, fish, and eggs; Dairy products; Processed fruits and vegetables; Sugar and other sweets; Fats and oils; Miscellaneous foods"
+312,0.7218,True,Nonalcoholic beverages; Alcoholic beverages; Tobacco products and smoking supplies
+313,1.0000,False,
+314,0.9210,True,Household textiles; Floor coverings
+315,1.0629,True,Men and boys; Women and girls; Children under 2
+316,0.8447,True,Footwear
+321,1.0000,False,
+322,0.7882,True,Other household products
+323,1.0000,False,
+324,0.8807,True,Gasoline and other fuels; Fuel oil and other fuels
+325,0.5960,True,Drugs; Laundry and cleaning products
+326,1.0000,False,
+327,1.0000,False,
+331,1.0000,False,
+332,1.0000,False,
+333,1.0000,False,
+334,0.7550,True,Audio and visual equipment and services
+335,1.1032,True,Major appliances; Small appliances and miscellaneous housewares
+3361MV,1.6888,True,"Cars and trucks, new"
+3364OT,1.0000,False,
+337,1.3248,True,Furniture
+339,0.9302,True,"Toys, hobbies, and playground equipment; Medical supplies"
+423,1.0000,False,
+424,1.0000,False,
+441,1.5280,True,Vehicle purchases (net outlay)
+444,1.0000,False,
+445,0.7215,True,Food at home
+449,1.2219,True,Household furnishings and equipment
+456,0.9267,True,Drugs; Personal care products and services
+457,0.8767,True,Gasoline and other fuels
+458,0.9996,True,Apparel and services
+459,1.5208,True,"Pets; Toys, hobbies, and playground equipment; Reading; Other entertainment supplies, equipment, and services"
+481,1.4576,True,Public and other transportation
+484,1.0000,False,
+486,1.0000,False,
+488,1.0000,False,
+492,1.1185,True,Postage and stationery
+512,0.7550,True,Audio and visual equipment and services
+513,1.3581,True,Reading
+517,0.6911,True,Telephone services
+518,1.0000,False,
+519,1.0000,False,
+522,1.9812,True,Mortgage interest and charges; Vehicle finance charges
+523,1.0000,False,
+531,-0.3255,True,Rented dwellings
+532,1.4736,True,"Vehicle rental, leases, licenses, and other charges"
+533,1.0000,False,
+5415,1.0000,False,
+5412OP,0.9740,True,Miscellaneous
+561,1.0133,True,Other household expenses
+562,1.0000,False,
+611,1.5883,True,Education
+621,1.0434,True,Medical services
+713,2.0388,True,Fees and admissions
+721,1.7144,True,Other lodging
+722,1.2225,True,Food away from home
+811,1.1204,True,Maintenance and repairs
+812,1.1400,True,Personal care products and services

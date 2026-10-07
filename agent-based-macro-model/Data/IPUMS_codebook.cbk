@@ -1,0 +1,831 @@
+Description: Revision of (Revision of 00001)
+Samples selected:
+      2024 ACS
+File Type:                    rectangular
+Case Selection:               No
+  Variable                         Columns        Len   2024    
+  YEAR                         H   1-4            4     X       
+  SAMPLE                       H   5-10           6     X       
+  SERIAL                       H  11-18           8     X       
+  CBSERIAL                     H  19-31          13     X       
+  HHWT                         H  32-41          10     X       
+  CLUSTER                      H  42-54          13     X       
+  STRATA                       H  55-66          12     X       
+  GQ                           H  67              1     X       
+  PERNUM                       P  68-71           4     X       
+  PERWT                        P  72-81          10     X       
+  AGE                          P  82-84           3     X       
+  EDUC                         P  85-86           2     X       
+  EDUCD                        P  87-89           3     X       
+  DEGFIELD                     P  90-91           2     X       
+  DEGFIELDD                    P  92-95           4     X       
+  EMPSTAT                      P  96              1     X       
+  EMPSTATD                     P  97-98           2     X       
+  CLASSWKR                     P  99              1     X       
+  CLASSWKRD                    P 100-101          2     X       
+  INDNAICS                     P 102-109          8     X       
+  WKSWORK1                     P 110-111          2     X       
+  UHRSWORK                     P 112-113          2     X       
+  INCWAGE                      P 114-119          6     X       
+
+Variable Availability Key:
+All Years X - available in this sample
+All Years . - not available in this sample
+
+RECTYPE   Record type
+H         Household
+P         Person
+
+YEAR                Census year
+1850                1850
+1860                1860
+1870                1870
+1880                1880
+1900                1900
+1910                1910
+1920                1920
+1930                1930
+1940                1940
+1950                1950
+1960                1960
+1970                1970
+1980                1980
+1990                1990
+2000                2000
+2001                2001
+2002                2002
+2003                2003
+2004                2004
+2005                2005
+2006                2006
+2007                2007
+2008                2008
+2009                2009
+2010                2010
+2011                2011
+2012                2012
+2013                2013
+2014                2014
+2015                2015
+2016                2016
+2017                2017
+2018                2018
+2019                2019
+2020                2020
+2021                2021
+2022                2022
+2023                2023
+2024                2024
+
+SAMPLE              IPUMS sample identifier
+202404              2020-2024, PRCS 5-year
+202403              2020-2024, ACS 5-year
+202402              2024 PRCS
+202401              2024 ACS
+202304              2019-2023, PRCS 5-year
+202303              2019-2023, ACS 5-year
+202302              2023 PRCS
+202301              2023 ACS
+202204              2018-2022, PRCS 5-year
+202203              2018-2022, ACS 5-year
+202202              2022 PRCS
+202201              2022 ACS
+202104              2017-2021, PRCS 5-year
+202103              2017-2021, ACS 5-year
+202102              2021 PRCS
+202101              2021 ACS
+202004              2016-2020, PRCS 5-year
+202003              2016-2020, ACS 5-year
+202001              2020 ACS
+201904              2015-2019, PRCS 5-year
+201903              2015-2019, ACS 5-year
+201902              2019 PRCS
+201901              2019 ACS
+201804              2014-2018, PRCS 5-year
+201803              2014-2018, ACS 5-year
+201802              2018 PRCS
+201801              2018 ACS
+201704              2013-2017, PRCS 5-year
+201703              2013-2017, ACS 5-year
+201702              2017 PRCS
+201701              2017 ACS
+201604              2012-2016, PRCS 5-year
+201603              2012-2016, ACS 5-year
+201602              2016 PRCS
+201601              2016 ACS
+201504              2011-2015, PRCS 5-year
+201503              2011-2015, ACS 5-year
+201502              2015 PRCS
+201501              2015 ACS
+201404              2010-2014, PRCS 5-year
+201403              2010-2014, ACS 5-year
+201402              2014 PRCS
+201401              2014 ACS
+201306              2009-2013, PRCS 5-year
+201305              2009-2013, ACS 5-year
+201304              2011-2013, PRCS 3-year
+201303              2011-2013, ACS 3-year
+201302              2013 PRCS
+201301              2013 ACS
+201206              2008-2012, PRCS 5-year
+201205              2008-2012, ACS 5-year
+201204              2010-2012, PRCS 3-year
+201203              2010-2012, ACS 3-year
+201202              2012 PRCS
+201201              2012 ACS
+201106              2007-2011, PRCS 5-year
+201105              2007-2011, ACS 5-year
+201104              2009-2011, PRCS 3-year
+201103              2009-2011, ACS 3-year
+201102              2011 PRCS
+201101              2011 ACS
+201008              2010 Puerto Rico 10%
+201007              2010 10%
+201006              2006-2010, PRCS 5-year
+201005              2006-2010, ACS 5-year
+201004              2008-2010, PRCS 3-year
+201003              2008-2010, ACS 3-year
+201002              2010 PRCS
+201001              2010 ACS
+200906              2005-2009, PRCS 5-year
+200905              2005-2009, ACS 5-year
+200904              2007-2009, PRCS 3-year
+200903              2007-2009, ACS 3-year
+200902              2009 PRCS
+200901              2009 ACS
+200804              2006-2008, PRCS 3-year
+200803              2006-2008, ACS 3-year
+200802              2008 PRCS
+200801              2008 ACS
+200704              2005-2007, PRCS 3-year
+200703              2005-2007, ACS 3-year
+200702              2007 PRCS
+200701              2007 ACS
+200602              2006 PRCS
+200601              2006 ACS
+200502              2005 PRCS
+200501              2005 ACS
+200401              2004 ACS
+200301              2003 ACS
+200201              2002 ACS
+200101              2001 ACS
+200008              2000 Puerto Rico 1%
+200007              2000 1%
+200006              2000 Puerto Rico 1% sample (old version)
+200005              2000 Puerto Rico 5%
+200004              2000 ACS
+200003              2000 Unweighted 1%
+200002              2000 1% sample (old version)
+200001              2000 5%
+199007              1990 Puerto Rico 1%
+199006              1990 Puerto Rico 5%
+199005              1990 Labor Market Area
+199004              1990 Elderly
+199003              1990 Unweighted 1%
+199002              1990 1%
+199001              1990 5%
+198007              1980 Puerto Rico 1%
+198006              1980 Puerto Rico 5%
+198005              1980 Detailed metro/non-metro
+198004              1980 Labor Market Area
+198003              1980 Urban/Rural
+198002              1980 1%
+198001              1980 5%
+197009              1970 Puerto Rico Neighborhood
+197008              1970 Puerto Rico Municipio
+197007              1970 Puerto Rico State
+197006              1970 Form 2 Neighborhood
+197005              1970 Form 1 Neighborhood
+197004              1970 Form 2 Metro
+197003              1970 Form 1 Metro
+197002              1970 Form 2 State
+197001              1970 Form 1 State
+196002              1960 5%
+196001              1960 1%
+195002              1950 100% database
+195001              1950 1%
+194002              1940 100% database
+194001              1940 1%
+193004              1930 100% database
+193003              1930 Puerto Rico
+193002              1930 5%
+193001              1930 1%
+192003              1920 100% database
+192002              1920 Puerto Rico sample
+192001              1920 1%
+191004              1910 100% database
+191003              1910 1.4% sample with oversamples
+191002              1910 1%
+191001              1910 Puerto Rico
+190004              1900 100% database
+190003              1900 1% sample with oversamples
+190002              1900 1%
+190001              1900 5%
+188003              1880 100% database
+188002              1880 10%
+188001              1880 1%
+187003              1870 100% database
+187002              1870 1% sample with black oversample
+187001              1870 1%
+186003              1860 100% database
+186002              1860 1% sample with black oversample
+186001              1860 1%
+185002              1850 100% database
+185001              1850 1%
+
+GQ                  Group quarters status
+0                   Vacant unit
+                    Households:
+1                   Households under 1970 definition
+2                   Additional households under 1990 definition
+                    Group Quarters:
+3                   Group quarters--Institutions
+4                   Other group quarters
+5                   Additional households under 2000 definition
+6                   Fragment
+
+AGE                 Age
+000                 Less than 1 year old
+001                 1
+002                 2
+003                 3
+004                 4
+005                 5
+006                 6
+007                 7
+008                 8
+009                 9
+010                 10
+011                 11
+012                 12
+013                 13
+014                 14
+015                 15
+016                 16
+017                 17
+018                 18
+019                 19
+020                 20
+021                 21
+022                 22
+023                 23
+024                 24
+025                 25
+026                 26
+027                 27
+028                 28
+029                 29
+030                 30
+031                 31
+032                 32
+033                 33
+034                 34
+035                 35
+036                 36
+037                 37
+038                 38
+039                 39
+040                 40
+041                 41
+042                 42
+043                 43
+044                 44
+045                 45
+046                 46
+047                 47
+048                 48
+049                 49
+050                 50
+051                 51
+052                 52
+053                 53
+054                 54
+055                 55
+056                 56
+057                 57
+058                 58
+059                 59
+060                 60
+061                 61
+062                 62
+063                 63
+064                 64
+065                 65
+066                 66
+067                 67
+068                 68
+069                 69
+070                 70
+071                 71
+072                 72
+073                 73
+074                 74
+075                 75
+076                 76
+077                 77
+078                 78
+079                 79
+080                 80
+081                 81
+082                 82
+083                 83
+084                 84
+085                 85
+086                 86
+087                 87
+088                 88
+089                 89
+090                 90 (90+ in 1980 and 1990)
+091                 91
+092                 92
+093                 93
+094                 94
+095                 95
+096                 96
+097                 97
+098                 98
+099                 99
+100                 100 (100+ in 1960-1970)
+101                 101
+102                 102
+103                 103
+104                 104
+105                 105
+106                 106
+107                 107
+108                 108
+109                 109
+110                 110
+111                 111
+112                 112 (112+ in the 1980 internal data)
+113                 113
+114                 114
+115                 115 (115+ in the 1990 internal data)
+116                 116
+117                 117
+118                 118
+119                 119
+120                 120
+121                 121
+122                 122
+123                 123
+124                 124
+125                 125
+126                 126
+127                 127
+128                 128
+129                 129
+130                 130
+131                 131
+132                 132
+133                 133
+134                 134
+135                 135
+140                 140
+999                 Missing
+
+EDUC                Educational attainment [general version]
+00                  N/A or no schooling
+01                  Nursery school to grade 4
+02                  Grade 5, 6, 7, or 8
+03                  Grade 9
+04                  Grade 10
+05                  Grade 11
+06                  Grade 12
+07                  1 year of college
+08                  2 years of college
+09                  3 years of college
+10                  4 years of college
+11                  5+ years of college
+99                  Missing
+
+EDUCD               Educational attainment [detailed version]
+000                 N/A or no schooling
+001                 N/A
+002                 No schooling completed
+010                 Nursery school to grade 4
+011                 Nursery school, preschool
+012                 Kindergarten
+013                 Grade 1, 2, 3, or 4
+014                 Grade 1
+015                 Grade 2
+016                 Grade 3
+017                 Grade 4
+020                 Grade 5, 6, 7, or 8
+021                 Grade 5 or 6
+022                 Grade 5
+023                 Grade 6
+024                 Grade 7 or 8
+025                 Grade 7
+026                 Grade 8
+030                 Grade 9
+040                 Grade 10
+050                 Grade 11
+060                 Grade 12
+061                 12th grade, no diploma
+062                 High school graduate or GED
+063                 Regular high school diploma
+064                 GED or alternative credential
+065                 Some college, but less than 1 year
+070                 1 year of college
+071                 1 or more years of college credit, no degree
+080                 2 years of college
+081                 Associate's degree, type not specified
+082                 Associate's degree, occupational program
+083                 Associate's degree, academic program
+090                 3 years of college
+100                 4 years of college
+101                 Bachelor's degree
+110                 5+ years of college
+111                 6 years of college (6+ in 1960-1970)
+112                 7 years of college
+113                 8+ years of college
+114                 Master's degree
+115                 Professional degree beyond a bachelor's degree
+116                 Doctoral degree
+999                 Missing
+
+DEGFIELD            Field of degree [general version]
+00                  N/A
+11                  Agriculture
+13                  Environment and Natural Resources
+14                  Architecture
+15                  Area, Ethnic, and Civilization Studies
+19                  Communications
+20                  Communication Technologies
+21                  Computer and Information Sciences
+22                  Cosmetology Services and Culinary Arts
+23                  Education Administration and Teaching
+24                  Engineering
+25                  Engineering Technologies
+26                  Linguistics and Foreign Languages
+29                  Family and Consumer Sciences
+32                  Law
+33                  English Language, Literature, and Composition
+34                  Liberal Arts and Humanities
+35                  Library Science
+36                  Biology and Life Sciences
+37                  Mathematics and Statistics
+38                  Military Technologies
+40                  Interdisciplinary and Multi-Disciplinary Studies (General)
+41                  Physical Fitness, Parks, Recreation, and Leisure
+48                  Philosophy and Religious Studies
+49                  Theology and Religious Vocations
+50                  Physical Sciences
+51                  Nuclear, Industrial Radiology, and Biological Technologies
+52                  Psychology
+53                  Criminal Justice and Fire Protection
+54                  Public Affairs, Policy, and Social Work
+55                  Social Sciences
+56                  Construction Services
+57                  Electrical and Mechanic Repairs and Technologies
+58                  Precision Production and Industrial Arts
+59                  Transportation Sciences and Technologies
+60                  Fine Arts
+61                  Medical and Health Sciences and Services
+62                  Business
+64                  History
+
+DEGFIELDD           Field of degree [detailed version]
+0000                N/A
+1100                General Agriculture
+1101                Agriculture Production and Management
+1102                Agricultural Economics
+1103                Animal Sciences
+1104                Food Science
+1105                Plant Science and Agronomy
+1106                Soil Science
+1107                Veterinary Medicine
+1199                Miscellaneous Agriculture
+1300                Environment and Natural Resources
+1301                Environmental Science
+1302                Forestry
+1303                Natural Resources Management
+1401                Architecture
+1501                Area, Ethnic, and Civilization Studies
+1900                Communications
+1901                Communications
+1902                Journalism
+1903                Mass Media
+1904                Advertising and Public Relations
+2001                Communication Technologies
+2100                Computer and Information Systems
+2101                Computer Programming and Data Processing
+2102                Computer Science
+2105                Information Sciences
+2106                Computer Information Management and Security
+2107                Computer Networking and Telecommunications
+2201                Cosmetology Services and Culinary Arts
+2300                General Education
+2301                Educational Administration and Supervision
+2303                School Student Counseling
+2304                Elementary Education
+2305                Mathematics Teacher Education
+2306                Physical and Health Education Teaching
+2307                Early Childhood Education
+2308                Science  and Computer Teacher Education
+2309                Secondary Teacher Education
+2310                Special Needs Education
+2311                Social Science or History Teacher Education
+2312                Teacher Education:  Multiple Levels
+2313                Language and Drama Education
+2314                Art and Music Education
+2399                Miscellaneous Education
+2400                General Engineering
+2401                Aerospace Engineering
+2402                Biological Engineering
+2403                Architectural Engineering
+2404                Biomedical Engineering
+2405                Chemical Engineering
+2406                Civil Engineering
+2407                Computer Engineering
+2408                Electrical Engineering
+2409                Engineering Mechanics, Physics, and Science
+2410                Environmental Engineering
+2411                Geological and Geophysical Engineering
+2412                Industrial and Manufacturing Engineering
+2413                Materials Engineering and Materials Science
+2414                Mechanical Engineering
+2415                Metallurgical Engineering
+2416                Mining and Mineral Engineering
+2417                Naval Architecture and Marine Engineering
+2418                Nuclear Engineering
+2419                Petroleum Engineering
+2499                Miscellaneous Engineering
+2500                Engineering Technologies
+2501                Engineering and Industrial Management
+2502                Electrical Engineering Technology
+2503                Industrial Production Technologies
+2504                Mechanical Engineering Related Technologies
+2599                Miscellaneous Engineering Technologies
+2600                Linguistics and Foreign Languages
+2601                Linguistics and Comparative Language and Literature
+2602                French, German, Latin and Other Common Foreign Language Studies
+2603                Other Foreign Languages
+2901                Family and Consumer Sciences
+3200                Law
+3201                Court Reporting
+3202                Pre-Law and Legal Studies
+3300                English Language, Literature, and Composition
+3301                English Language and Literature
+3302                Composition and Speech
+3400                Liberal Arts and Humanities
+3401                Liberal Arts
+3402                Humanities
+3501                Library Science
+3600                Biology
+3601                Biochemical Sciences
+3602                Botany
+3603                Molecular Biology
+3604                Ecology
+3605                Genetics
+3606                Microbiology
+3607                Pharmacology
+3608                Physiology
+3609                Zoology
+3611                Neuroscience
+3699                Miscellaneous Biology
+3700                Mathematics
+3701                Applied Mathematics
+3702                Statistics and Decision Science
+3801                Military Technologies
+4000                Interdisciplinary and Multi-Disciplinary Studies (General)
+4001                Intercultural and International Studies
+4002                Nutrition Sciences
+4003                Neuroscience
+4005                Mathematics and Computer Science
+4006                Cognitive Science and Biopsychology
+4007                Interdisciplinary Social Sciences
+4008                Multi-disciplinary or General Science
+4009                Data Science and Data Analytics
+4101                Physical Fitness, Parks, Recreation, and Leisure
+4801                Philosophy and Religious Studies
+4901                Theology and Religious Vocations
+5000                Physical Sciences
+5001                Astronomy and Astrophysics
+5002                Atmospheric Sciences and Meteorology
+5003                Chemistry
+5004                Geology and Earth Science
+5005                Geosciences
+5006                Oceanography
+5007                Physics
+5008                Materials Science
+5098                Multi-disciplinary or General Science
+5102                Nuclear, Industrial Radiology, and Biological Technologies
+5200                Psychology
+5201                Educational Psychology
+5202                Clinical Psychology
+5203                Counseling Psychology
+5205                Industrial and Organizational Psychology
+5206                Social Psychology
+5299                Miscellaneous Psychology
+5301                Criminal Justice and Fire Protection
+5400                Public Affairs, Policy, and Social Work
+5401                Public Administration
+5402                Public Policy
+5403                Human Services and Community Organization
+5404                Social Work
+5500                General Social Sciences
+5501                Economics
+5502                Anthropology and Archeology
+5503                Criminology
+5504                Geography
+5505                International Relations
+5506                Political Science and Government
+5507                Sociology
+5599                Miscellaneous Social Sciences
+5601                Construction Services
+5701                Electrical and Mechanic Repairs and Technologies
+5801                Precision Production and Industrial Arts
+5901                Transportation Sciences and Technologies
+6000                Fine Arts
+6001                Drama and Theater Arts
+6002                Music
+6003                Visual and Performing Arts
+6004                Commercial Art and Graphic Design
+6005                Film, Video and Photographic Arts
+6006                Art History and Criticism
+6007                Studio Arts
+6099                Miscellaneous Fine Arts
+6100                General Medical and Health Services
+6102                Communication Disorders Sciences and Services
+6103                Health and Medical Administrative Services
+6104                Medical Assisting Services
+6105                Medical Technologies Technicians
+6106                Health and Medical Preparatory Programs
+6107                Nursing
+6108                Pharmacy, Pharmaceutical Sciences, and Administration
+6109                Treatment Therapy Professions
+6110                Community and Public Health
+6199                Miscellaneous Health Medical Professions
+6200                General Business
+6201                Accounting
+6202                Actuarial Science
+6203                Business Management and Administration
+6204                Operations, Logistics and E-Commerce
+6205                Business Economics
+6206                Marketing and Marketing Research
+6207                Finance
+6209                Human Resources and Personnel Management
+6210                International Business
+6211                Hospitality Management
+6212                Management Information Systems and Statistics
+6299                Miscellaneous Business and Medical Administration
+6402                History
+6403                United States History
+
+EMPSTAT             Employment status [general version]
+0                   N/A
+1                   Employed
+2                   Unemployed
+3                   Not in labor force
+9                   Unknown/Illegible
+
+EMPSTATD            Employment status [detailed version]
+00                  N/A
+                    In Labor Force
+                    Employed
+10                  At work
+11                  At work, public emerg
+12                  Has job, not working
+13                  Armed forces
+14                  Armed forces--at work
+15                  Armed forces--not at work but with job
+20                  Unemployed
+21                  Unemp, exper worker
+22                  Unemp, new worker
+30                  Not in Labor Force
+31                  NILF, housework
+32                  NILF, unable to work
+33                  NILF, school
+34                  NILF, other
+99                  Unknown/Illegible
+
+CLASSWKR            Class of worker [general version]
+0                   N/A
+1                   Self-employed
+2                   Works for wages
+9                   Unknown
+
+CLASSWKRD           Class of worker [detailed version]
+00                  N/A
+10                  Self-employed
+11                  Employer
+12                  Working on own account
+13                  Self-employed, not incorporated
+14                  Self-employed, incorporated
+20                  Works for wages
+21                  Works on salary (1920)
+22                  Wage/salary, private
+23                  Wage/salary at non-profit
+24                  Wage/salary, government
+25                  Federal govt employee
+26                  Armed forces
+27                  State govt employee
+28                  Local govt employee
+29                  Unpaid family worker
+98                  Illegible
+99                  Unknown
+
+UHRSWORK            Usual hours worked per week
+00                  N/A
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+21                  21
+22                  22
+23                  23
+24                  24
+25                  25
+26                  26
+27                  27
+28                  28
+29                  29
+30                  30
+31                  31
+32                  32
+33                  33
+34                  34
+35                  35
+36                  36
+37                  37
+38                  38
+39                  39
+40                  40
+41                  41
+42                  42
+43                  43
+44                  44
+45                  45
+46                  46
+47                  47
+48                  48
+49                  49
+50                  50
+51                  51
+52                  52
+53                  53
+54                  54
+55                  55
+56                  56
+57                  57
+58                  58
+59                  59
+60                  60
+61                  61
+62                  62
+63                  63
+64                  64
+65                  65
+66                  66
+67                  67
+68                  68
+69                  69
+70                  70
+71                  71
+72                  72
+73                  73
+74                  74
+75                  75
+76                  76
+77                  77
+78                  78
+79                  79
+80                  80
+81                  81
+82                  82
+83                  83
+84                  84
+85                  85
+86                  86
+87                  87
+88                  88
+89                  89
+90                  90
+91                  91
+92                  92
+93                  93
+94                  94
+95                  95
+96                  96
+97                  97
+98                  98
+99                  99 (Topcode)
+

@@ -1,0 +1,4 @@
+parameter,value,se,note
+C_0,32374.123876,2015.536308,regression intercept (USD per consumer unit per year)
+a,0.326215,0.018142,slope: extra consumption per extra USD of income before taxes
+C_0_lowest_band,30976.000000,1180.540000,mean consumption of the lowest income band (alternative C_0)
